@@ -11,7 +11,7 @@ export default [
         extends: "eslint:recommended",
         parserOptions: {
             ecmaVersion: 12,
-            sourceType: "module"
+            sourceType: "module" 
         },
         rules: {
             quotes: ["error", "single"]
