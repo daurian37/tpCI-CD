@@ -60,7 +60,8 @@ export default [
             "use-isnan": "error",
             "valid-typeof": ["error", { "requireStringLiterals": true }],
             // Custom rules
-            quotes: ["error", "single", {}]
+            "no-console": "off",
+            quotes: ["error", "single"]
         }
     }
 ];
